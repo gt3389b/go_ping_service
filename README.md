@@ -8,6 +8,9 @@ make
 go run main.go
 
 ## Test the service
+
+Now we can test the service with grpcc
+
 ```
 $ grpcc -i --proto ./proto/ping.proto --address localhost:50051
 
